@@ -1,2 +1,2 @@
 #!/bin/bash
-$shell chown --from=${USER:="guillaume"}:${GROUP:?$LOGNAME}  ${USER:="vincent"}:${GROUP:?LOGNAME} hello
+|chown --from=guillaume vincent   hello
