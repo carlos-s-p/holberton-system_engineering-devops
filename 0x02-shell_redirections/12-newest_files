@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 10|find $(ls -1t) -maxdepth 0 -type f -printf "%f\n"
+find $(ls -1t) -maxdepth 0 -type f -printf "%f\n"|head -n 10
