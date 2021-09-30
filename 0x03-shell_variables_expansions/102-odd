@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" "$( grep -n . | grep -E '^\d*[13579]\Z' |cut -f2  -d :)"
+printf "%s\n" "$( grep -n . | grep -E '^\d*[13579]:' |cut -f2  -d :)"
