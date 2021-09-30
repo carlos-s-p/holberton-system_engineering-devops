@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(echo $(tr '[A-Za-z]*' '[N-ZA-Mn-za-m]*' $1))"
+printf "%s" "$(tr '[A-Za-z]*' '[N-ZA-Mn-za-m]*' $1)"
